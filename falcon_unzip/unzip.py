@@ -44,8 +44,8 @@ hostname
 date
 cd {topdir}
 python -m falcon_kit.mains.get_read_ctg_map
-python -m falcon_kit.mains.rr_ctg_track
-python -m falcon_kit.mains.pr_ctg_track
+python -m falcon_kit.mains.rr_ctg_track --stream
+python -m falcon_kit.mains.pr_ctg_track --stream
 #mkdir -p 3-unzip/reads/
 python -m falcon_kit.mains.fetch_reads
 cd {wd}
